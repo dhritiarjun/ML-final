@@ -1,0 +1,34 @@
+
+We based our project on a Divorce dataset from kaggle. We wanted to use this data to make predictions about the probability of a divorce, given a set of satisfaction ratings of answers to questions about participants’ marriage.
+Our process was divided into steps listed below:
+1. Cleaning the data (Nora, Dhriti and Michaël): We first sat down to figure out how to use our dataset in order to accurately 
+build our ML models. We figured out that with the data turned into numerical values in our dataset we could reach reliable and 
+valid predictions. Thus, we decided to drop the columns corresponding to any categorical values as they are not of interest to us 
+in this project.
+
+2. Build the model with the data 
+a. Model 1: Michaël
+  i. Linear Regression
+  ii. Confusion matrix
+
+b. Model 2: Celia and Zulima
+  i. Decision trees
+  ii. Cross Validation
+
+c. Model 3: Nora
+  i. Logistic Regression with one feature
+  ii. Confusion Matrix
+
+3. Deciding targets to consider for predictions - All
+
+4. Predicting outcome and cleaning code. Double-checking code. - Nora and Michaël
+
+5. Writing report - Zulima and Dhriti
+
+Our conclusions:
+1. Divorce is highly predictable in this dataset. This is due to the fact that the questions were
+extensive and detailed and resulted in a very high accuracy score
+
+2. Some machine learning methods are better than other ones as can be seen from the accuracy
+scores; for example, we got close to perfect accuracy scores for the logistic regression and decision trees, 
+but less so for the linear regression model.
